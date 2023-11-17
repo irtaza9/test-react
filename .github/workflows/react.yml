@@ -22,4 +22,4 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: sudo mv /home/irtaza/test-react/test-react/test-react/test-react /var/www/html
+    - run: sudo -S mv /home/irtaza/test-react/test-react/test-react/test-react /var/www/html
